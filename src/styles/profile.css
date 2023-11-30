@@ -1,0 +1,82 @@
+
+
+
+  
+.profilePageP {
+  padding-top: 110px;
+  height: 120vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+  
+  .form {
+    padding-top: 100px; 
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    width: 400px;
+    text-align: center;
+  }
+  
+  .form input,
+  .form select,
+  .form textarea,
+  .form button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .form button {
+    background: #e73c7e;
+    color: #fff;
+    cursor: pointer;
+  }
+
+
+.result-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000; 
+    text-align: center;
+}
+
+.result-form h3 {
+    margin: 0 0 20px 0;
+}
+
+.result-form p {
+    margin: 0 0 20px 0;
+    font-size: 18px;
+}
+
+.result-form button {
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.result-form button:hover {
+    background-color: #e5e5e5;
+}
+
+  

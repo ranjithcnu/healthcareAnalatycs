@@ -1,0 +1,59 @@
+@keyframes gradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body {
+  min-height: 100vh;
+  background-image: url(background.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab) !important; */
+  margin: 0;
+  padding: 0;
+  background-size: 400% 400%;
+  animation: gradientBackground 15s ease infinite;
+}
+
+.table {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-spacing: 0;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.table th,
+.table td {
+  padding: 10px 20px;
+}
+
+.table thead th {
+  background-color: #303F9F;
+  color: white;
+}
+
+.table tbody tr {
+  transition: background 0.3s;
+}
+
+.table tbody tr:hover {
+  background-color: #E8EAF6;
+}
+
+@media (max-width: 768px) {
+  .table th, .table td {
+    padding: 5px;
+  }
+}
